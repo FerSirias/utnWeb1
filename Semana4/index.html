@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 4</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#hipervinculo">Ir a Hipervinculos</a></li>
+        <li><a href="#ordenadas">Ir a Listas Ordenadas</a></li>
+        <li><a href="#desordenadas">Ir a listas desordenadas</a></li>
+      </ul>
+    </nav>
+
+    <h1>Listas</h1>
+    <!--Para trabajar las anclas, se pone antes de la sección que quiero ver-->
+    <a name="ordenadas"></a>
+    <h2>Listas Ordenadas</h2>
+    colores Types A a I i 1
+    <ol type="A">
+      <li>Negro</li>
+      <li>Verde</li>
+      <li>Blanco</li>
+      <li>Rojo</li>
+      <li>Amarillo</li>
+    </ol>
+
+    <ol type="I">
+      <li>Negro</li>
+      <li>Verde</li>
+      <li>Blanco</li>
+      <li>Rojo</li>
+      <li>Amarillo</li>
+    </ol>
+
+    <ol type="1">
+      <li>Negro</li>
+      <li>Verde</li>
+      <li>Blanco</li>
+      <li>Rojo</li>
+      <li>Amarillo</li>
+    </ol>
+
+    <a name="desordenadas"></a>
+    <h2>Listas Desordenadas</h2>
+    Frutas Types square circle disc(por defecto)
+    <ul type="square">
+      <li>Manzana</li>
+      <li>Sandía</li>
+      <li>Mango</li>
+    </ul>
+
+    <ul type="circle">
+      <li>Manzana</li>
+      <li>Sandía</li>
+      <li>Mango</li>
+    </ul>
+
+    <h2>Listad de definición</h2>
+    <dl>
+      <!--Concepto-->
+      <dt>SIDA</dt>
+      <!--Definición-->
+      <dd>Síndorme de inmunificiencia ...</dd>
+      <dt>UNT</dt>
+      <dd>Universidad Técnica Nacional</dd>
+    </dl>
+
+    <!--Mix de listas-->
+    <h2>Mix de listas</h2>
+    <ol type="I">
+      <li>
+        Raza Perro
+        <ul>
+          <li>Pastor</li>
+          <li>Rootweiller</li>
+        </ul>
+      </li>
+      <li>
+        Raza Gatos
+        <ul>
+          <li>Angora</li>
+          <li>Egipsio</li>
+          <li>Simarron</li>
+        </ul>
+      </li>
+      <li>
+        Raza Caballos
+        <ul>
+          <li>Español</li>
+          <li>Percheron</li>
+        </ul>
+      </li>
+    </ol>
+
+    <a name="hipervinculo"></a>
+    <h2>Hipervínculos</h2>
+    <!--Página de mi sitio web-->
+    <h2>Interno</h2>
+    <a href="contactenos.html">Contáctenos</a>
+    <!--Fuera de mi sitio-->
+    <h2>Externo</h2>
+    <a href="https://www.autocosmos.cr/catalogo/segmentos/ferrari"
+      >Ir a Ferrari</a
+    ><br />
+    <a href="https://www.autocosmos.cr/catalogo/segmentos/ferrari"
+      ><img
+        src="https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmVycmFyaSUyMHJvam98ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+        alt="Imagen de Ferrari"
+        width="100px"
+        height="100px"
+    /></a>
+    <h2>Anclas</h2>
+
+    <h2>Video</h2>
+    <!--Se ejecuta cuando uno tiene un video en una carpeta-->
+    <video width="250px" height="250px">
+      <source src="video/lavacalola.mp4" />
+    </video>
+
+    <!--Se ejecuta cuando uno quiere cargar un video externo-->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/wy5jmYfmX5U"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+
+    <h2>Tablas</h2>
+    <table border="1" width="200px">
+      <caption>
+        Título Regular
+      </caption>
+      <!--Filas-->
+      <tr>
+        <th>COLUMNA 1</th>
+        <th>COLUMNA 2</th>
+      </tr>
+      <tr>
+        <!--Celdas-->
+        <td>R1 COL1</td>
+        <td>R1 COL2</td>
+      </tr>
+      <tr>
+        <td>R2 COL1</td>
+        <td>R2 COL2</td>
+      </tr>
+      <tr>
+        <td>R3 COL1</td>
+        <td>R3 COL2</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1" width="200px" bgcolor="magenta">
+      <caption>
+        Tabla irregular
+      </caption>
+      <tr bgcolor="skyblue">
+        <td colspan="3">alfa</td>
+        <td>bravo</td>
+        <td rowspan="2">charlie</td>
+      </tr>
+      <tr>
+        <td bgcolor="skyblue">delta</td>
+        <td>echo</td>
+        <td>foxtrot</td>
+        <td>golf</td>
+      </tr>
+      <tr>
+        <td>holtel</td>
+        <td colspan="3" , rowspan="2" align="center">india</td>
+        <td>juliet</td>
+      </tr>
+      <tr>
+        <td>kilo</td>
+        <td>lima</td>
+      </tr>
+      <tr>
+        <td>mike</td>
+        <td>november</td>
+        <td>oscar</td>
+        <td>papa</td>
+        <td>quebec</td>
+      </tr>
+    </table>
+  </body>
+</html>
