@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <!--Formas de hacer formularios-->
+    <form action="" method="get" id="prueba">
+      <!--etiquetado para un campo-->
+      <label for="name:">Nombre:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        value="Perez"
+        placeholder="Escriba su nombre"
+        maxlength="15"
+        minlength="8"
+        readonly=""
+      />
+      <br />
+      <label for="apellido1">Apellido:</label>
+      <input
+        type="text"
+        name="name"
+        id="apellido1"
+        value="Perez"
+        placeholder="Escriba su apellido 1"
+        maxlength="15"
+        minlength="8"
+        disabled
+      />
+      <br />
+      <label for="password">Contraseña:</label>
+      <input type="password" />
+      <br />
+      <label for="number">Edad:</label>
+      <input type="number" id="numero" min="1" max="20" />
+      <br />
+      <label for="correo">Correo:</label>
+      <input type="email" id="correo" />
+      <br />
+      <label for="color">Color:</label>
+      <input type="color" id="color" />
+      <br />
+      <label for="archivo">Seleccione el archivo:</label>
+      <input type="file" id="archivo" />
+      <br />
+      <label for="radio">Seleccione su genero:</label>
+      <label>Masculino</label><input type="radio" name="genero" value="1" />
+      <label>Femenino</label><input type="radio" name="genero" value="2" />
+      <label>Neutro</label><input type="radio" name="genero" value="3" />
+      <br />
+      <label for="colores">Seleccione el color:</label>
+      <label>Rojo</label><input type="checkbox" name="colores" value="rojo" />
+      <label>Negro</label
+      ><input type="checkbox" name="colores" value="negro" />
+      <label>Verde</label><input type="checkbox" name="colores" value="verde" />
+      <br />
+      <label for="fecha">Fecha</label>
+      <input type="date" name="" id="fecha" />
+      <br />
+      <label for="hora">Hora</label>
+      <input type="time" id="hora" />
+      <br />
+      <label for="mes">Mes</label>
+      <input type="month" id="mes" />
+      <br />
+      <label for="semana">Semana</label>
+      <input type="week" id="semana" />
+      <br />
+      <label for="url">URL</label>
+      <input type="url" id="url" />
+      <br />
+      <label for="direccion">Direccion</label>
+      <textarea name="ddd" cols="20" rows="10"> </textarea>
+      <br />
+      <!--Ejecuta acción del formulario-->
+      <input type="submit" value="Aceptar" />
+      <input type="reset" value="Resetear" />
+      <!--ejecuta acción especifica-->
+      <button click="">Guardar</button>
+    </form>
+    <br />
+    <label for="direccion">Marca Vehiculo</label>
+    <select id="marcaVehiculo" form="prueba">
+      <option value="1">Honda</option>
+      <option value="2" selected>Toyota</option>
+      <option value="3">Nissan</option>
+    </select>
+  </body>
+</html>
