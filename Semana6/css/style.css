@@ -1,0 +1,44 @@
+body{
+    /*background-image: url('../img/foto.jpg');*/
+    /* Forma de comentar */
+    background-color: beige;
+    margin: 0px;
+}
+
+/* agrupamiento o optimización se da através de la coma, para poder agrupar aquellos objestos que tienen mismos atributos */
+/* Se creó una regla que va afectar a los div1,div2,div3,div4 */
+.div1,.div2,.div3,.div4{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div1,.div2{
+    display: inline-block;
+}
+
+.div1{
+    background-color: orange;
+    border-radius: 50%;
+    width: 15%;
+    background-image: url('../img/avatar.png') ;
+    background-size:cover;
+    text-align: center;
+}
+
+.div2{
+    background-color: violet;
+    width: 84%;
+}
+
+.div3{
+    background-color: skyblue;
+    width: 100%;
+}
+
+.div4{
+    background-color: pink;
+    width: 100%;
+}

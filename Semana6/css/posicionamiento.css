@@ -1,0 +1,28 @@
+.div1,.div2,.div3,.div4{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.div1{
+    background-color: rebeccapurple;
+}
+
+.div2{
+    background-color: coral;
+    position: relative;
+    top: 50px;
+    left: 500px;
+}
+
+.div3{
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.div4{
+    background-color:pink;
+    position: fixed;
+}
