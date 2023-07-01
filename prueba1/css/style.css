@@ -1,0 +1,42 @@
+body{
+    background-color:  #485562;
+    margin: 1%;
+}
+
+.div1 {
+    background-color: #dadada; 
+  height: 40%; 
+  width: 100%; 
+  font-size: 120%;
+  
+}
+
+.div2 {
+    /*background-image: url('../img/estudiando.jpg');*/
+    width: 100%;
+    height: 40%;
+}
+
+.div3 {
+    background-color: #dadada;
+    width: 50%;
+    height: 60%;
+    bottom: 10%;
+}
+
+.div4{
+    background-color:#e4336b;
+    width: 50%;
+    height: 90px;
+    text-align: center;
+}
+
+.div5{
+    background-color:  #45ccc4 ;
+    width: 51%;
+    height: 30%;
+    position: absolute;
+    top: 40px;
+    left: 652px;
+    font-size: 18px;
+}
