@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+h1{
+    padding: 60px 0px 0px 0px;
+}
+div#h1
+{
+    margin: auto;
+    border: 5px;
+    width: 960px;
+    height: 800px;
+    position: relative;;
+    font-size: 30px;
+    line-height: 25px;
+}
+div.wall{
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 28%;
+    top: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+div.puerta{
+    position: absolute;
+    background-color: #56070C;
+    height: 100px;
+    width: 110px;
+    margin: 288px 0px 0px 415px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+div.ventana{
+    position: absolute;
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    margin: 225px 0px 0px 560px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+div.ventana2{
+    position: absolute;
+    background-color: blue;
+    height: 80px;
+    width: 80px;
+    margin: 150px 0px 0px 289px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+div.tejado{
+position: absolute;
+background-color: red;
+width: 450px;
+height: 70px;
+left: 25%;
+margin-top: 320px;
+border-width: 5px;
+border-style: solid;
+border-color: black;
+}
