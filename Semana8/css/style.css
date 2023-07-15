@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+    color: white;
+}
+/*Combinador descendiente*/
+div.menu div.options ul li a{
+color: fuchsia;
+}
+/*En este segundo combinador css, si se aplica, ya que tiene agregada la etiqueta span*/
+div.menu span.options ul li a{
+    color: red;
+    }
+/*Combinador hijo*/
+div#page > div{
+    color: aqua;
+}
+/*Combinador hermano adyacente*/
+div#page + div + div{
+    color: blue;
+}
+div.post span + span{
+    color: salmon;
+}
+/*Combinador hermano general*/
+div.post strong ~ strong{
+    background-color: brown;
+}
+/*Combinador universal*/
+div#menu *{
+    color: yellowgreen;
+}
+/*Aplicando un estado a h1*/
+div#menu h1:hover{
+    color: blueviolet;
+}
+
+.nombre:focus{
+    background-color: magenta;
+    color: black;
+}
+
+.imagen {
+    width: 130px;
+    height: 130px;
+}
+.imagen:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    box-shadow: 15px 5px 5px fuchsia;
+}

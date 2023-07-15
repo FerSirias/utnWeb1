@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinadores de CSS</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Menú página</h1>
+    <div class="menu">
+      <div class="options">
+        <ul>
+          <li>
+            <a
+              href="https://static.wikia.nocookie.net/eswikia/images/1/14/Barbie.png/revision/latest?cb=20160904165459"
+              >link a Barbie</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--En el segundo menú no se aplicaría porque en ves de tener etiqueta <div> tiene una <span>-->
+    <div class="menu">
+      <span class="options">
+        <ul>
+          <li>
+            <a
+              href=https://i.pinimg.com/474x/96/f1/76/96f17624e3557c4848fa9ac94b34f245.jpg
+              >link a Super Mario Bros</a
+            >
+          </li>
+        </ul>
+    </span>
+    </div>
+    <br>
+    <!--En este ejemplo solo se le aplica cambios a los hijos directos del tag-->
+    <div id="page">
+        <div>SOY HIJO 1
+            <div>SOY NIETO</div>
+        </div>
+        <div>SOY HIJO 2</div>
+    </div>
+    <!--En este ejemplo solo contempla a el hermano adyacente del tag padre (es el hermano seguido de quien se aplica la regla)-->
+    <div>ADYACENTE 1</div>
+    <div>ADYACENTE 2</div>
+    <div class="post">
+        <span>ESTE ES EL RAÍZ</span>
+        <span>ESTE SE LE APLICA POR SER ADYACENTE</span>
+    </div>
+    <!--En este ejemplo contempla a todos los hermanos en general (se lo aplica a todos los hermanos sin importar que sean adyacentes)-->
+    <div class="post">
+        <strong>HERMANO GENERAL 1</strong><!--A este no se le aplica porque es el principal-->
+        <div>holii :P </div><!--Aunque esté diviendo algún tag, siempre aplica la regla que se le está aplicando a todos los hermanos-->
+        <strong>HERMANO GENERAL 2</strong>
+        <strong>HERMANO GENERAL 3</strong>
+    </div>
+    <!--Este se utiliza para decir que quiero aplicarle a todos los elementos que estén dentro del tag que se esté indicando-->
+    <div id="menu">
+        <span>span</span>
+        <h1>h1</h1>
+        <strong>strong</strong>
+    </div>
+    <br>
+    <input type="text" class="nombre"/>
+    <br>
+    <br>
+    <div><img src="https://www.blogdelfotografo.com/wp-content/uploads/2017/09/girl-2696947_1920.jpg" alt="Imagen de Arte" class="imagen"></div>
+  </body>
+</html>
