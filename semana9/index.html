@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boostrap</title>
+    <!--Forma de llamar a mi proyecto boostrap, de manera de CDN(en la nube))-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-4">
+        <div
+          class="col-xl-6 text-light fs-4 fw-bold position-absolute top-0 start-0 ms-4 mt-4"
+        >
+          Login.
+        </div>
+        <div class="col-xl-6 text-end position-absolute top-0 end-0 mt-4">
+          <i class="bi bi-facebook me-4"></i>
+          <i class="bi bi-twitter me-4"></i>
+          <i class="bi bi-globe me-4"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">
+          <img src="img/person.png" class="img" alt="Imagen Persona" />
+        </div>
+        <div class="col-xl-4">
+          <div class="bg-light rounded-5 mt-3 custom-column">
+            <br />
+            <br />
+            <br />
+            <label class="offset-1 fs-5 fw-bold" for="">Login</label>
+            <br />
+            <br />
+            <br />
+            <div class="bg-light">
+              <label class="offset-1 fs-6" for="">Username</label>
+              <input
+                type="text"
+                class="form-control w-75 offset-1 bg-light rounded-5"
+                aria-label="Text input with radio button"
+              />
+              <br />
+              <label class="offset-1 fs-6" for="">Password</label>
+              <input
+                type="password"
+                class="form-control mt-1 w-75 offset-1 bg-light rounded-5"
+                aria-label="Text input with radio button"
+              />
+              <br />
+              <input
+                class="offset-1 form-check-input border-black"
+                type="checkbox"
+                name="check"
+                id="check"
+              />
+              <label class="form-check-label" for="check">Remember Me</label>
+            </div>
+            <br />
+            <br />
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <buttom
+                class="btn btn-success border-5 rounded-5 btn-hover fw-bold"
+                type="buttom"
+                >Login</buttom
+              >
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4"></div>
+      </div>
+      <div class="row"></div>
+    </div>
+    <!--<div class="btn btn-info fs-5">Oprimir Aquí</div>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <div class="btn btn-dark">Oprimir Aquí</div>-->
+    <!--Tratar de poner el script antes del cierre de la etiqueta <body>-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

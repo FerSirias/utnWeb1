@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/iti.jpg);
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+ color: #00853C;
+ font-size: 45px;
+}
+
+  header nav.principal ul li{
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+a{
+    color: #00ff00;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: beige;
+    font-size: 18px;
+}
+
+a:focus{
+    color: yellow;
+}

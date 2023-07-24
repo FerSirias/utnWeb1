@@ -1,0 +1,25 @@
+body{
+    background: linear-gradient(to right, #42d18c 50%, white 50%);
+}
+
+img{
+    width: 210px;
+    height: 470px;
+    margin-top: 80px;
+}
+
+.custom-column{
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.btn-success{
+    width: 260px;
+    height: 45px;
+    position: absolute;
+    right: 565px;
+}
+.btn-success:hover{
+background-color: #1F3A3D;
+border: #1F3A3D;
+}
