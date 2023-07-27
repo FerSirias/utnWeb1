@@ -1,0 +1,22 @@
+.leftside{
+    margin-top: 5%;
+    background-color: white;
+    height: 100vh;
+    width: 600px;
+    float: left;
+}
+.rightside{
+    height: 100vh;
+    width: 800px;
+    margin: 0;
+    float: right;
+}
+.girl{
+    height: 110vh;
+    width: 100%;
+    float: right;
+}
+#FP{
+    text-decoration: underline;
+    margin-left: 150px;
+}
