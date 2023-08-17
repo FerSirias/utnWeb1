@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repaso de JavaScript 2</title>
+  </head>
+  <body bgcolor="pink">
+    <div>
+      <div id="titulo">Learning JS</div>
+      <!--<button onclick="cambiarColor()">Cambiar color</button>-->
+    </div>
+    <form onsubmit="return validar()" method="">
+      <label for="name">Nombre:</label>
+      <input type="text" name="name" id="name" /><br />
+      <label for="age">Edad:</label>
+      <input type="text" name="age" id="age" /><br />
+      <label for="opciones">Selecciona una opción:</label>
+      <select id="opciones" name="opciones">
+        <option value="">Selecciona...</option>
+        <option value="opcion1">Opción 1</option>
+        <option value="opcion2">Opción 2</option>
+        <option value="opcion3">Opción 3</option></select
+      ><br />
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" /><br />
+      <label for="ano">Fecha:</label>
+      <input type="text" name="ano" id="ano" placeholder="AAAA" /> /
+      <input type="text" name="mes" id="mes" placeholder="MM" /> /
+      <input type="text" name="dia" id="dia" placeholder="DD" /><br />
+      <label for="id">Identificación:</label>
+      <input
+        type="text"
+        id="id"
+        name="id"
+        placeholder="Ingresa tu identificación"
+      /><br />
+      <label for="phone">Número de teléfono:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Ingresa tu número teléfono"
+      />
+      <br />
+      <label for="suscripcion"
+        >Estás de acuerdo de enviar tu información:</label
+      >
+      <input type="checkbox" id="suscripcion" name="suscripcion" /><br />
+      <label>Selecciona tu género:</label><br />
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="masculino" name="opcion" value="masculino" />
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="femenino" name="opcion" value="femenino" /><br />
+      <input type="submit" value="Presionar" />
+    </form>
+    <!--En este botón se está enviando parámetros
+    <button onclick="enviarMensaje('Hola Mundo...', 15)">Mensaje</button>
+    <button value="5" id="5">5</button>-->
+    <script src="js/index.js"></script>
+  </body>
+</html>
