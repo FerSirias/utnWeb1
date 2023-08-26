@@ -1,0 +1,28 @@
+ /* Estilos personalizados */
+.card {
+    margin-bottom: 20px;
+    /*background-color: #F4EDD5;*/
+}
+
+.btn {
+    background-color: #525558;
+    border: skyblue;
+}
+
+header {
+    background-color: #636c74;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    color: white;
+}
+
+.input-group {
+    max-width: 400px;
+    margin: 0 auto;
+}

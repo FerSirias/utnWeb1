@@ -1,0 +1,54 @@
+
+.box-containerS{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap:15px;
+}
+
+.box-containerS .boxS{
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  border-radius: 5px;
+  background: #fff;
+  text-align: center;
+  padding:30px 20px;
+}
+
+.box-containerS .boxS img{
+  height: 80px;
+}
+
+.box-containerS .boxS h3{
+  color:#444;
+  font-size: 22px;
+  padding:10px 0;
+}
+
+.box-containerS .boxS p{
+  color:#777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.box-containerS .boxS .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background:#333;
+  color:#fff;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.box-containerS .boxS .btn:hover{
+  letter-spacing: 1px;
+}
+
+.box-containerS .boxS:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,.3);
+  transform: scale(1.03);
+}
+
+.containerS{
+  padding:15px 9%;
+  padding-bottom: 100px;
+}
